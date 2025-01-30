@@ -1,0 +1,74 @@
+# 제외 캐시
+__pycache__
+
+# 제외 폴더
+venv/
+.venv/
+DRA/datasets/mvtec/carpet/
+experiment/
+venv/
+.venv/
+
+
+# 제외 파일
+*.mp4
+*.png
+*.pt# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+
+# Large data files & models
+*.mp4
+*.png
+*.pt
+*.model
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+*.tar
+*.zip
+*.gz
+
+# Datasets
+DRA/datasets/
+datasets/
+data/
+raw_data/
+processed_data/
+experiment/
+
+# Logs and temp files
+logs/
+*.log
+.ipynb_checkpoints/
+wandb/
+runs/
+temp/
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+secret.py
+.env
+config.ini
+
+# OS generated
+.DS_Store
+Thumbs.db
+*.model
+
+# 제외 .py
+secret.py
